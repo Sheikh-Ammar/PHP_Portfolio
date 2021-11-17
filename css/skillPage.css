@@ -1,0 +1,18 @@
+/* SKILL PAGE */
+.skills{
+   background-image: url(../images/skill.jpg);
+   background-size: cover;
+   color: white;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:900px){
+    .skills{
+        margin: -80px 0px 100px 0px;
+    }
+}
+@media(max-width:720px){
+    .skills{
+        margin-top: -30px;
+    }
+} 

@@ -1,0 +1,85 @@
+/* CONTACT US PAGE */
+.contactus{
+    padding: 100px;
+    margin-bottom: 1em;
+    font-size: 1em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.83;
+    background-color: rgba(230, 232, 122, 0.768);
+}
+.contactus img{
+    width: 100%;
+    height: 40vh;
+}
+#contact-heading{
+    margin-top: -50px;
+    width: 100%;
+    float: right;
+    font-size: 2rem;
+    animation-name: contact;
+    animation-duration: 8s;
+    color: green;
+    animation-direction: alternate;
+}
+@keyframes contact{
+    0%{
+        width: 300px;
+        color: #c2520c;
+    }
+    30%{
+        color: #3c11a0;
+    }
+    50%{
+        color: rgb(223, 15, 129);
+    }
+    80%{
+        color: #d72848;
+    }
+}
+body h1{
+    font-size: 50px;
+}
+.icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    font-size: 35px;
+}
+body h3{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 500;
+    color: green;
+}
+
+
+/* MEDIA QUERIES */
+@media(max-width:1140px){
+    .contactus{
+        margin-top: -40px;
+    }
+    #contact-heading{
+        font-size: 1.5rem;
+    }
+    footer{
+        margin-top: 23%;
+    }
+}
+@media(max-width:720px){
+    #contact-heading h1{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+}
+@media(max-width:720px){
+    #contact-heading h1{
+        font-size: 1.8rem;
+    }
+}
+
+
