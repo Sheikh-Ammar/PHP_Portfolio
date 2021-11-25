@@ -29,7 +29,7 @@
     <p>Polices & FAQs</p>
 </footer>
 
-
+<!-- PRE LOADER CONTENT DIV -->
+</div>
 </body>
-
 </html>

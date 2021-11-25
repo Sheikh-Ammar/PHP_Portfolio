@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sheikh | Ammar</title>
 
+    <!-- PRELOADER -->
+    <script src="js/preloader.js"></script>
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CSS CUSTOM STYLE SHEET -->
@@ -24,6 +26,12 @@
 </head>
 <body>
 
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <img src="images/preloader.gif" alt="preloader">
+    </div>
+
+    <div id="preloader-content">
     <!-- NAVIGATION BAR -->
     <section id="navigation">
      <nav>
